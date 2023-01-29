@@ -10,8 +10,8 @@ import './App.css';
 // import TravelPlan from  './components/TravelPlan'
 // import HideAndShowElement from './components/HideAndShowElement'
 // import Form1Component from './components/Form1Component'
-import ConditionalRendering from './components/ConditionalRendering';
-
+// import ConditionalRendering from './components/ConditionalRendering';
+import BasicFormValidation from './components/BasicFormValidation'
 function App() {
   return (
     <div className="App">
@@ -25,7 +25,8 @@ function App() {
       {/* <TravelPlan /> */}
       {/* <HideAndShowElement /> */}
       {/* <Form1Component /> */}
-      <ConditionalRendering />
+      {/* <ConditionalRendering /> */}
+      <BasicFormValidation />
     </div>
   );
 }
