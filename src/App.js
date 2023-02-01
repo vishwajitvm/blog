@@ -12,6 +12,7 @@ import './App.css';
 // import Form1Component from './components/Form1Component'
 // import ConditionalRendering from './components/ConditionalRendering';
 import BasicFormValidation from './components/BasicFormValidation'
+import PassFunctionAsProps from './components/PassFunctionAsProps';
 function App() {
   return (
     <div className="App">
@@ -26,7 +27,8 @@ function App() {
       {/* <HideAndShowElement /> */}
       {/* <Form1Component /> */}
       {/* <ConditionalRendering /> */}
-      <BasicFormValidation />
+      {/* <BasicFormValidation /> */}
+      <PassFunctionAsProps />
     </div>
   );
 }
