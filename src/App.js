@@ -11,9 +11,13 @@ import './App.css';
 // import HideAndShowElement from './components/HideAndShowElement'
 // import Form1Component from './components/Form1Component'
 // import ConditionalRendering from './components/ConditionalRendering';
-import BasicFormValidation from './components/BasicFormValidation'
+// import BasicFormValidation from './components/BasicFormValidation'
 import PassFunctionAsProps from './components/PassFunctionAsProps';
 function App() {
+  //function to pass functrion as an prop to PassFunctionAsProps
+  function getData() {
+    alert( "Hello, from fuynction as an props") ;
+  }
   return (
     <div className="App">
       {/* <User /> */}
@@ -28,7 +32,7 @@ function App() {
       {/* <Form1Component /> */}
       {/* <ConditionalRendering /> */}
       {/* <BasicFormValidation /> */}
-      <PassFunctionAsProps />
+      <PassFunctionAsProps data={getData} />
     </div>
   );
 }
