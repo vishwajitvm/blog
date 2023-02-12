@@ -12,8 +12,9 @@ import './App.css';
 // import Form1Component from './components/Form1Component'
 // import ConditionalRendering from './components/ConditionalRendering';
 // import BasicFormValidation from './components/BasicFormValidation'
-import PassFunctionAsProps from './components/PassFunctionAsProps';
-import ConstructorComponent from './components/lifecycle/ConstructorComponent';
+// import PassFunctionAsProps from './components/PassFunctionAsProps';
+// import ConstructorComponent from './components/lifecycle/ConstructorComponent';
+import RenderLifeCycleMethodComponent from './components/lifecycle/RenderLifeCycleMethodComponent' ;
 function App() {
   //function to pass functrion as an prop to PassFunctionAsProps
   function getData() {
@@ -34,7 +35,8 @@ function App() {
       {/* <ConditionalRendering /> */}
       {/* <BasicFormValidation /> */}
       {/* <PassFunctionAsProps data={getData} /> */}
-      <ConstructorComponent />
+      {/* <ConstructorComponent /> */}
+      <RenderLifeCycleMethodComponent />
     </div>
   );
 }
