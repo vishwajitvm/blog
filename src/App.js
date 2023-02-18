@@ -15,7 +15,9 @@ import './App.css';
 // import PassFunctionAsProps from './components/PassFunctionAsProps';
 // import ConstructorComponent from './components/lifecycle/ConstructorComponent';
 // import RenderLifeCycleMethodComponent from './components/lifecycle/RenderLifeCycleMethodComponent' ;
-import ComponentDidMountComponent from './components/lifecycle/ComponentDidMountComponent';
+// import ComponentDidMountComponent from './components/lifecycle/ComponentDidMountComponent';
+// import ComponentDidUpdateCOmponent from './components/lifecycle/ComponentDidUpdateCOmponent';
+import ShouldComponentUpdateComponent from './components/lifecycle/ShouldComponentUpdateComponent';
 
 function App() {
   //function to pass functrion as an prop to PassFunctionAsProps
@@ -39,7 +41,9 @@ function App() {
       {/* <PassFunctionAsProps data={getData} /> */}
       {/* <ConstructorComponent /> */}
       {/* <RenderLifeCycleMethodComponent /> */}
-      < ComponentDidMountComponent />
+      {/* < ComponentDidMountComponent /> */}
+      {/* < ComponentDidUpdateCOmponent /> */}
+      <ShouldComponentUpdateComponent/>
     </div>
   );
 }
