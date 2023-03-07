@@ -22,7 +22,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // import MainHooks from './components/Hooks/MainHooks';
 
-import HandelArrayListingComponent from './components/ArrayList/HandelArrayListingComponent';
+// import HandelArrayListingComponent from './components/ArrayList/HandelArrayListingComponent';
+import NestedListComponent from './components/Nesting/NestedListComponent';
 
 function App() {
   //function to pass functrion as an prop to PassFunctionAsProps
@@ -53,7 +54,8 @@ function App() {
       {/* Hooks */}
       {/* < MainHooks /> */}
 
-      <HandelArrayListingComponent />
+      {/* <HandelArrayListingComponent /> */}
+      <NestedListComponent />
     </div>
   );
 }
