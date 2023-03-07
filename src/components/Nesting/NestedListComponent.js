@@ -84,6 +84,7 @@ export default function NestedListComponent() {
       <h1>Users details in Table</h1>
       <Table striped bordered hover variant="dark">
         <thead>
+            <th>S.no</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Email </th>
@@ -92,20 +93,30 @@ export default function NestedListComponent() {
         </thead>
         <tbody>
             {
-                usersDetails.map((userDetail) => 
+                usersDetails.map((userDetail , i) => 
                     <tr>
+                        <td> {i+1} </td>
                         <td> { userDetail.name } </td>
                         <td> { userDetail.lastName } </td>
                         <td> { userDetail.email } </td>
                         <td> { userDetail.phoneNumber } </td>
                         <td>
+                        <Table striped bordered hover variant="dark">
+                            <tbody>
                             {
-                                userDetail.Addresses.map((address) => 
-                                    <ul>
-                                        <li> HOUSE NUMBER: { address.houseNumber } , AREA:  { address.area } , CITY { address.city } , PINCODE: { address.country } , COUNTRY   { address.country } </li>
-                                    </ul>
+                                userDetail.Addresses.map((address,i) => 
+                                    <tr>
+                                        <td> { Math.floor(Math.random(i) * 54 )  } </td>
+                                        <td> { address.houseNumber } </td>
+                                        <td> { address.area } </td>
+                                        <td> { address.pincode } </td>
+                                        <td> { address.country } </td>
+                                    </tr>
                                 )
                             }
+                            </tbody>
+                        </Table>
+                            
                         </td>
                     </tr>
                 )
