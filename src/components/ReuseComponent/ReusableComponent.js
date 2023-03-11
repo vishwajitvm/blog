@@ -21,7 +21,7 @@ export default function ReusableComponent() {
     <div>
         <h2>Reusable Component</h2>
             {
-                users.map ( (user) => 
+                users.map ( (user,i) => 
                     <ReusableComp2 data={user} />
                 )
             }
