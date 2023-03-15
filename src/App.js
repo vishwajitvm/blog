@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import User from './components/User'
 // import UserClassComponent from './components/UserClassComponent'
 // import ClickEventCall from './components/ClickEventCall'
@@ -17,7 +18,14 @@ import './App.css';
 // import RenderLifeCycleMethodComponent from './components/lifecycle/RenderLifeCycleMethodComponent' ;
 // import ComponentDidMountComponent from './components/lifecycle/ComponentDidMountComponent';
 // import ComponentDidUpdateCOmponent from './components/lifecycle/ComponentDidUpdateCOmponent';
-import ShouldComponentUpdateComponent from './components/lifecycle/ShouldComponentUpdateComponent';
+// import ShouldComponentUpdateComponent from './components/lifecycle/ShouldComponentUpdateComponent';
+
+// import MainHooks from './components/Hooks/MainHooks';
+
+// import HandelArrayListingComponent from './components/ArrayList/HandelArrayListingComponent';
+// import NestedListComponent from './components/Nesting/NestedListComponent';
+// import  ReusableComponent from './components/ReuseComponent/ReusableComponent' ;
+import ParentFragmentComponent from './components/ReactFragments/ParentFragmentComponent';
 
 function App() {
   //function to pass functrion as an prop to PassFunctionAsProps
@@ -43,7 +51,16 @@ function App() {
       {/* <RenderLifeCycleMethodComponent /> */}
       {/* < ComponentDidMountComponent /> */}
       {/* < ComponentDidUpdateCOmponent /> */}
-      <ShouldComponentUpdateComponent/>
+      {/* <ShouldComponentUpdateComponent/> */}
+
+      {/* Hooks */}
+      {/* < MainHooks /> */}
+
+      {/* <HandelArrayListingComponent /> */}
+      {/* <NestedListComponent /> */}
+
+      {/* <ReusableComponent /> */}
+      <ParentFragmentComponent />
     </div>
   );
 }
