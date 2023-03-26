@@ -26,7 +26,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import NestedListComponent from './components/Nesting/NestedListComponent';
 // import  ReusableComponent from './components/ReuseComponent/ReusableComponent' ;
 // import ParentFragmentComponent from './components/ReactFragments/ParentFragmentComponent';
-import ParentLiftingComponent from './components/LiftingStateUp/ParentLiftingComponent';
+// import ParentLiftingComponent from './components/LiftingStateUp/ParentLiftingComponent';
+import PureDataComponent from "./components/PureComponent/PureDataComponent"
 
 function App() {
   //function to pass functrion as an prop to PassFunctionAsProps
@@ -62,7 +63,8 @@ function App() {
 
       {/* <ReusableComponent /> */}
       {/* <ParentFragmentComponent /> */}
-      <ParentLiftingComponent />
+      {/* <ParentLiftingComponent /> */}
+      <PureDataComponent />
     </div>
   );
 }
