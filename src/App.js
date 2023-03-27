@@ -28,7 +28,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import ParentFragmentComponent from './components/ReactFragments/ParentFragmentComponent';
 // import ParentLiftingComponent from './components/LiftingStateUp/ParentLiftingComponent';
 // import PureDataComponent from "./components/PureComponent/PureDataComponent"
-import UseMemeoHooksComponent from "./components/UseMemoHooks/UseMemeoHooksComponent"
+// import UseMemeoHooksComponent from "./components/UseMemoHooks/UseMemeoHooksComponent"
+import ParentCalling from './components/Refs/ParentCalling';
 
 function App() {
   //function to pass functrion as an prop to PassFunctionAsProps
@@ -66,7 +67,8 @@ function App() {
       {/* <ParentFragmentComponent /> */}
       {/* <ParentLiftingComponent /> */}
       {/* <PureDataComponent /> */}
-      <UseMemeoHooksComponent />
+      {/* <UseMemeoHooksComponent /> */}
+      <ParentCalling />
     </div>
   );
 }
