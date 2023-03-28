@@ -30,7 +30,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import PureDataComponent from "./components/PureComponent/PureDataComponent"
 // import UseMemeoHooksComponent from "./components/UseMemoHooks/UseMemeoHooksComponent"
 // import ParentCalling from './components/Refs/ParentCalling';
-import ReactControlledComponent from './components/ControlledComponent/ReactControlledComponent'
+// import ReactControlledComponent from './components/ControlledComponent/ReactControlledComponent'
+import HocComponent from './components/HighOrderComponent/HocComponent'
 
 function App() {
   //function to pass functrion as an prop to PassFunctionAsProps
@@ -70,7 +71,8 @@ function App() {
       {/* <PureDataComponent /> */}
       {/* <UseMemeoHooksComponent /> */}
       {/* <ParentCalling /> */}
-      <ReactControlledComponent />
+      {/* <ReactControlledComponent /> */}
+      <HocComponent />
     </div>
   );
 }
