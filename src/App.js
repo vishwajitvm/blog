@@ -33,7 +33,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import ReactControlledComponent from './components/ControlledComponent/ReactControlledComponent'
 // import HocComponent from './components/HighOrderComponent/HocComponent'
 
-import CheckPreviousStateCOmponent from './components/PreviousState/CheckPreviousStateCOmponent';
+// import CheckPreviousStateCOmponent from './components/PreviousState/CheckPreviousStateCOmponent';
+import StateWithObjectComponent from './components/StateWithObject/StateWithObjectComponent';
 
 
 function App() {
@@ -76,7 +77,8 @@ function App() {
       {/* <ParentCalling /> */}
       {/* <ReactControlledComponent /> */}
       {/* <HocComponent /> */}
-      <CheckPreviousStateCOmponent />
+      {/* <CheckPreviousStateCOmponent /> */}
+      <StateWithObjectComponent />
     </div>
   );
 }
